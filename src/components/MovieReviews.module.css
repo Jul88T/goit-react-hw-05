@@ -1,0 +1,28 @@
+.reviewsList {
+  padding: 1rem 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.reviewItem {
+  background-color: #f1f1f1;
+  border-left: 4px solid #00bfff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.author {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.content {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+  white-space: pre-wrap;
+}

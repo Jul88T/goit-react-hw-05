@@ -1,0 +1,30 @@
+.castList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+  padding: 1rem 0;
+  list-style: none;
+}
+
+.castItem {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.castItem:hover {
+  transform: scale(1.02);
+}
+
+.actorName {
+  font-weight: 600;
+}
+
+.character {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #555;
+}
